@@ -5,7 +5,7 @@ const path = require('path');
 const { dirname } = require('path');
 const { setFlagsFromString } = require('v8');
 const apiRoutes = require('./routes/apiRoutes');
-const htmlRoutes = require('./routes/apiRoutes/htmlRoutes');
+const htmlRoutes = require('./routes/htmlRoutes');
 
 const PORT = process.env.PORT || 3001;
 const app = express();
